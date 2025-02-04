@@ -22,7 +22,7 @@ jobs:
         backend: [vulkan]
         include:
           - backend: vulkan
-            artifact_name: zed-release
+            artifact_name: zed-release-vulkan
             rustflags: ""
 
     steps:
