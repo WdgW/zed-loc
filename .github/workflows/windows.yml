@@ -14,7 +14,7 @@ jobs:
         backend: [vulkan, opengl]
         include:
           - backend: vulkan
-            artifact_name: zed-release
+            artifact_name: zed-release-vulkan
             rustflags: ""
           - backend: opengl
             artifact_name: zed-release-opengl
