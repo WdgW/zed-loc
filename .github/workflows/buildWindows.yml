@@ -100,7 +100,7 @@ jobs:
       - name: Create release directories and zip
         run: |
           mkdir -p zed-release
-          mv artifacts/zed-release/zed.exe zed-release/
+          mv artifacts/zed-release-vulkan/zed.exe zed-release/
           zip -r zed-windows.zip zed-release/*
 
       - name: Upload release build artifacts to GitHub Release
