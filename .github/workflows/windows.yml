@@ -94,10 +94,10 @@ jobs:
 
       - name: Create release directories and zip
         run: |
-          mkdir -p zed-release zed-release-opengl
-          mv artifacts/zed-release/zed.exe zed-release/
+          mkdir -p zed-release-vulkan zed-release-opengl
+          mv artifacts/zed-release-vulkan/zed.exe zed-release-vulkan/
           mv artifacts/zed-release-opengl/zed.exe zed-release-opengl/
-          zip -r zed-windows.zip zed-release/*
+          zip -r zed-windows-vulkan.zip zed-release-vulkan/*
           zip -r zed-windows-opengl.zip zed-release-opengl/*
 
       - name: Upload release build artifacts to GitHub Release
