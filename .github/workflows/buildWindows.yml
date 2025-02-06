@@ -1,8 +1,8 @@
 name: 汉化发行(仅windows)
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # Runs every night at midnight UTC
+  #schedule:
+  #  - cron: "0 0 * * *" # Runs every night at midnight UTC
     
   workflow_dispatch:
     inputs:
