@@ -8,7 +8,7 @@ on:
       release:
         description: "是否发行"
         type: boolean
-        default: true
+        default: ture
       branch:
         type: string
         default: main
